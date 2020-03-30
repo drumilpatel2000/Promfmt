@@ -12,8 +12,6 @@ groups:
       severity: critical
     annotations:
       description: "stuff's happening with {{ $.labels.service }}"
-
-
   # Multiline comments
   # is working
   - record: "new_metric"
