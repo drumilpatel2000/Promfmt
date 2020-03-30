@@ -10,13 +10,13 @@ import (
 func contents(content *yaml.Node){
 	fmt.Println(content.Value)
 	if content.HeadComment != "" {
-		fmt.Print("Head ", content.HeadComment)
+		fmt.Println("Head", content.HeadComment)
 	}
 	if content.LineComment != "" {
-		fmt.Print("Line ", content.LineComment)
+		fmt.Println("Line", content.LineComment)
 	}
 	if content.FootComment != "" {
-		fmt.Print("Foot ", content.FootComment)
+		fmt.Println("Foot", content.FootComment)
 	}
 }
 
